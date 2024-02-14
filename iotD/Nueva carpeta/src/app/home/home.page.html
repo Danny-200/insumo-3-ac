@@ -1,0 +1,39 @@
+<ion-content>
+
+
+<ion-button (click)="apagar()" expand="block" fill="clear">
+APAGAR :v
+</ion-button>
+
+<ion-button (click)="encender()"  expand="block" fill="clear" >
+ENCENDER :3
+</ion-button>
+
+
+
+
+<ion-button (click)="toogleState()" expand="block" fill="clear" [style.background-color]="ledStatus ? 'yellow' : 'black'">
+  
+  {{ledStatus ? 'Encendido':'Apagado' }}
+</ion-button>
+
+
+<ion-button (click)="toogleState2()" expand="block" fill="clear" [style.background-color]="ledStatus2 ? 'blue' : 'black'">
+  
+  {{ledStatus2 ? 'Encendido':'Apagado' }}
+</ion-button>
+
+
+<ion-button (click)="toogleState3()" expand="block" fill="clear" [style.background-color]="ledStatus3 ? 'red' : 'black'">
+  
+  {{ledStatus3 ? 'Encendido':'Apagado' }}
+</ion-button>
+
+
+<ion-button (click)="toogleState4()" expand="block" fill="clear" [style.background-color]="ledStatus4 ? 'white' : 'black'">
+  {{ ledStatus4 ? 'Encendido' : 'Apagado' }}
+
+  
+</ion-button>
+
+</ion-content>

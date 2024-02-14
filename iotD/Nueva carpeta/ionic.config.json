@@ -1,0 +1,7 @@
+{
+  "name": "iotD",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
